@@ -27,6 +27,9 @@
     <ClInclude Include="euler-meta.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="sum-squares-euler6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
