@@ -30,6 +30,13 @@ public:
 };
 
 template <>
+struct euler<5>
+{
+public:
+    static const uint64_t value = smallestMultiple<uint64_t>(20);
+};
+
+template <>
 struct euler<6>
 {
 private:

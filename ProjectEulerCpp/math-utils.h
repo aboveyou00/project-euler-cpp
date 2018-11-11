@@ -26,3 +26,22 @@ inline constexpr T largestPrimeFactor(T num)
         nextPrime++;
     }
 }
+
+template <typename T>
+inline constexpr T smallestMultiple(T upTo)
+{
+    T current = 1;
+    for (T q = 1; q <= upTo; q++)
+    {
+        for (T w = 1; w <= q; w++)
+        {
+            T val = current * w;
+            if (val % q == 0)
+            {
+                current = val;
+                break;
+            }
+        }
+    }
+    return current;
+}
