@@ -3,7 +3,6 @@
 #include "euler.h"
 
 #include <sstream>
-#include "math-utils.h"
 #include <exception>
 
 MaximumPath::MaximumPath(std::vector<std::vector<uint64_t>*> *data)
@@ -27,7 +26,7 @@ MaximumPath *MaximumPath::parse(std::string str)
 
     size_t idx = 0;
     uint64_t collected = 0;
-    size_t requiredRows = 1;
+    size_t requiredCols = 1;
     auto rows = new std::vector<std::vector<uint64_t>*>();
     auto currentRow = new std::vector<uint64_t>();
 
@@ -49,12 +48,12 @@ MaximumPath *MaximumPath::parse(std::string str)
             }
             if (chr == '\n' && currentRow->size() > 0)
             {
-                if (currentRow->size() != requiredRows)
+                if (currentRow->size() != requiredCols)
                 {
                     throw std::exception("Parsed line with an unexpected number of values");
                 }
                 rows->push_back(currentRow);
-                requiredRows++;
+                requiredCols++;
                 currentRow = new std::vector<uint64_t>();
             }
         }
