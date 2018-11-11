@@ -1,7 +1,5 @@
 #pragma once
 
-#include <cstdint>
-
 template <std::uint32_t idx>
 struct fib
 {

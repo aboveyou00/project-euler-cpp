@@ -147,6 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="collatz.h" />
     <ClInclude Include="euler.h" />
     <ClInclude Include="fib.h" />
     <ClInclude Include="math-utils.h" />
@@ -156,6 +157,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="collatz.cpp" />
     <ClCompile Include="maximum-path.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="stdafx.cpp">

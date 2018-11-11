@@ -27,6 +27,13 @@ public:
 };
 
 template <>
+struct euler<14>
+{
+public:
+    static std::uint32_t value();
+};
+
+template <>
 struct euler<18>
 {
 public:

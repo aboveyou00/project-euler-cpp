@@ -10,8 +10,10 @@
 #include <stdio.h>
 #include <tchar.h>
 
+#include <cstdint>
 #include <string>
 
 using namespace std::string_literals;
 
 #include <vector>
+#include <map>
