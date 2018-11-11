@@ -65,6 +65,9 @@
     <ClCompile Include="file-utils.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="palindrome-product.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Euler81.txt">
