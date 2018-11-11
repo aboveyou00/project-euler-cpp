@@ -19,7 +19,7 @@ public:
 template <std::uint32_t upTo>
 struct sum
 {
-    static const std::uint64_t value = sum<upTo - 1>::value + upTo;
+    static const std::uint64_t value = (upTo * (upTo + 1)) / 2;
 };
 
 template <>
@@ -31,8 +31,10 @@ struct sum<0>
 template <std::uint32_t upTo>
 struct squareSum
 {
+private:
+    static const std::uint64_t sum = sum<upTo>::value;
 public:
-    static const std::uint64_t value = sum<upTo>::value * sum<upTo>::value;
+    static const std::uint64_t value = sum * sum;
 };
 
 template <>
