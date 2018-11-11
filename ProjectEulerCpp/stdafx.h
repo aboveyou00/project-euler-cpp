@@ -10,6 +10,8 @@
 #include <stdio.h>
 #include <tchar.h>
 
+#include <string>
 
+using namespace std::string_literals;
 
-// TODO: reference additional headers your program requires here
+#include <vector>

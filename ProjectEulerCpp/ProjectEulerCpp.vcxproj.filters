@@ -24,10 +24,16 @@
     <ClInclude Include="fib.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="euler-meta.h">
+    <ClInclude Include="sum-squares-euler6.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="sum-squares-euler6.h">
+    <ClInclude Include="maximum-path.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="math-utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="euler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -35,7 +41,10 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ProjectEulerCpp.cpp">
+    <ClCompile Include="maximum-path.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

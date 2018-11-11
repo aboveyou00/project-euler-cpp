@@ -147,14 +147,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="euler-meta.h" />
+    <ClInclude Include="euler.h" />
     <ClInclude Include="fib.h" />
+    <ClInclude Include="math-utils.h" />
+    <ClInclude Include="maximum-path.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="sum-squares-euler6.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ProjectEulerCpp.cpp" />
+    <ClCompile Include="maximum-path.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

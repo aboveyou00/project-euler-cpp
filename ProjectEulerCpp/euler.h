@@ -25,3 +25,17 @@ private:
 public:
     static const std::uint64_t value = sqSum - sumSq;
 };
+
+template <>
+struct euler<18>
+{
+public:
+    static std::uint64_t value();
+};
+
+template <>
+struct euler<67>
+{
+public:
+    static std::uint64_t value();
+};
