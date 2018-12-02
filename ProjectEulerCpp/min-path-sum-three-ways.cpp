@@ -175,6 +175,6 @@ std::uint64_t euler<82>::value()
     //)HEREDOC");
     //    return testVal;
 
-    auto input = readFile("Euler82.txt");
+    auto input = readFile("path-sum-matrix.txt");
     return MinPathSumThreeWays::eval(input);
 }

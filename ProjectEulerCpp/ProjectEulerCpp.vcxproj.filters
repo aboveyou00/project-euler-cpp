@@ -73,10 +73,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Euler81.txt">
-      <Filter>Data</Filter>
-    </Text>
-    <Text Include="Euler82.txt">
+    <Text Include="path-sum-matrix.txt">
       <Filter>Data</Filter>
     </Text>
   </ItemGroup>

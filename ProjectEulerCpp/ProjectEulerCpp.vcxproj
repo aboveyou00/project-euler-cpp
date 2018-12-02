@@ -173,10 +173,9 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Euler81.txt">
+    <Text Include="path-sum-matrix.txt">
       <DeploymentContent>true</DeploymentContent>
     </Text>
-    <Text Include="Euler82.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
