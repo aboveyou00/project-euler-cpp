@@ -74,3 +74,10 @@ struct euler<81>
 public:
     static uint64_t value();
 };
+
+template <>
+struct euler<82>
+{
+public:
+    static uint64_t value();
+};

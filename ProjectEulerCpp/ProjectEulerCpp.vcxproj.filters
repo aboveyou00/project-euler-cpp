@@ -68,9 +68,15 @@
     <ClCompile Include="palindrome-product.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="min-path-sum-three-ways.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Euler81.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="Euler82.txt">
       <Filter>Data</Filter>
     </Text>
   </ItemGroup>

@@ -162,6 +162,7 @@
     <ClCompile Include="file-utils.cpp" />
     <ClCompile Include="maximum-path.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="min-path-sum-three-ways.cpp" />
     <ClCompile Include="min-path-sum-two-ways.cpp" />
     <ClCompile Include="palindrome-product.cpp" />
     <ClCompile Include="stdafx.cpp">
@@ -175,6 +176,7 @@
     <Text Include="Euler81.txt">
       <DeploymentContent>true</DeploymentContent>
     </Text>
+    <Text Include="Euler82.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
