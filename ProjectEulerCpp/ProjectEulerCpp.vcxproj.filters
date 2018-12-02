@@ -71,6 +71,9 @@
     <ClCompile Include="min-path-sum-three-ways.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="min-path-sum-four-ways.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="path-sum-matrix.txt">
