@@ -45,6 +45,9 @@
     <ClInclude Include="file-utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="lattice-paths-euler15.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

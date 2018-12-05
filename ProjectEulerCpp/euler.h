@@ -2,6 +2,7 @@
 
 #include "fib.h"
 #include "sum-squares-euler6.h"
+#include "lattice-paths-euler15.h"
 
 template <std::uint32_t problemIdx>
 struct euler
@@ -52,6 +53,13 @@ struct euler<14>
 {
 public:
     static uint32_t value();
+};
+
+template <>
+struct euler<15>
+{
+public:
+    static const uint64_t value = latticePaths<20, 20>::value;
 };
 
 template <>

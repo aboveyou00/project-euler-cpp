@@ -151,6 +151,7 @@
     <ClInclude Include="euler.h" />
     <ClInclude Include="fib.h" />
     <ClInclude Include="file-utils.h" />
+    <ClInclude Include="lattice-paths-euler15.h" />
     <ClInclude Include="math-utils.h" />
     <ClInclude Include="maximum-path.h" />
     <ClInclude Include="stdafx.h" />
