@@ -54,6 +54,9 @@
     <ClInclude Include="sum-of-multiples-euler1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="pythag-triplet-product-euler9.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

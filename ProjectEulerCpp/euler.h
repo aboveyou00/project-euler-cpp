@@ -3,6 +3,7 @@
 #include "fib.h"
 #include "sum-of-multiples-euler1.h"
 #include "sum-squares-euler6.h"
+#include "pythag-triplet-product-euler9.h"
 #include "lattice-paths-euler15.h"
 
 template <std::uint32_t problemIdx>
@@ -68,6 +69,13 @@ struct euler<8>
 {
 public:
     static uint64_t value();
+};
+
+template <>
+struct euler<9>
+{
+public:
+    static const uint64_t value = pythagTripletProduct(1000);
 };
 
 template <>

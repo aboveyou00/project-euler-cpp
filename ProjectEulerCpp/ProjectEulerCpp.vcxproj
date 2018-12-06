@@ -154,6 +154,7 @@
     <ClInclude Include="lattice-paths-euler15.h" />
     <ClInclude Include="math-utils.h" />
     <ClInclude Include="maximum-path.h" />
+    <ClInclude Include="pythag-triplet-product-euler9.h" />
     <ClInclude Include="sieveEratosthenes.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="sum-of-multiples-euler1.h" />
