@@ -1,12 +1,20 @@
 #pragma once
 
 #include "fib.h"
+#include "sum-of-multiples-euler1.h"
 #include "sum-squares-euler6.h"
 #include "lattice-paths-euler15.h"
 
 template <std::uint32_t problemIdx>
 struct euler
 {
+};
+
+template <>
+struct euler<1>
+{
+public:
+    static const uint64_t value = sumOfMultiples<3, 1000>::value + sumOfMultiples<5, 1000>::value - sumOfMultiples<15, 1000>::value;
 };
 
 template <>
