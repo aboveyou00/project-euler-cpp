@@ -83,9 +83,15 @@
     <ClCompile Include="nth-prime-euler7.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="largest-series-product-euler8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="path-sum-matrix.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="euler8.txt">
       <Filter>Data</Filter>
     </Text>
   </ItemGroup>

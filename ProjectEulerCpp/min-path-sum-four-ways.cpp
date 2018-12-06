@@ -265,7 +265,7 @@ private:
     Node *m_nodes;
 };
 
-std::uint64_t euler<83>::value()
+uint64_t euler<83>::value()
 {
     //Should be 2297
     //    auto testVal = MinPathSumFourWays::eval(R"HEREDOC(

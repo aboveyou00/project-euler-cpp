@@ -163,7 +163,7 @@ private:
     uint64_t *m_data;
 };
 
-std::uint64_t euler<82>::value()
+uint64_t euler<82>::value()
 {
     //Should be 994
     //    auto testVal = MinPathSumThreeWays::eval(R"HEREDOC(

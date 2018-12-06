@@ -30,7 +30,7 @@ bool isPalindrome(uint32_t number, uint32_t *cache)
     return result;
 }
 
-std::uint32_t euler<4>::value()
+uint32_t euler<4>::value()
 {
     const uint32_t bufferSize = 999 * 999;
     uint32_t *buffer = new uint32_t[bufferSize];

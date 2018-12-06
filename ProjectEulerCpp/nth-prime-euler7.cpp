@@ -17,7 +17,7 @@ uint64_t nthPrime(uint64_t n)
     return lastPrime;
 }
 
-std::uint64_t euler<7>::value()
+uint64_t euler<7>::value()
 {
     return nthPrime(10001);
 }

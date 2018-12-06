@@ -116,7 +116,7 @@ private:
     std::vector<std::vector<uint64_t>*> *m_data;
 };
 
-std::uint64_t euler<81>::value()
+uint64_t euler<81>::value()
 {
     //Should be 2427
 //    auto testVal = MinPathSumTwoWays::eval(R"HEREDOC(
