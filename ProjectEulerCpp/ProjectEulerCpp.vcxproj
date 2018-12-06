@@ -171,6 +171,7 @@
     <ClCompile Include="min-path-sum-three-ways.cpp" />
     <ClCompile Include="min-path-sum-two-ways.cpp" />
     <ClCompile Include="nth-prime-euler7.cpp" />
+    <ClCompile Include="number-letter-counts-euler17.cpp" />
     <ClCompile Include="palindrome-product.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

@@ -95,6 +95,9 @@
     <ClCompile Include="sum-of-primes-euler10.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="number-letter-counts-euler17.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="path-sum-matrix.txt">
