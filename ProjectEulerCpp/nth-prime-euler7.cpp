@@ -4,7 +4,7 @@
 
 uint64_t nthPrime(uint64_t n)
 {
-    sieveEratosthenes<> sieve;
+    sieveEratosthenes<> sieve(150000);
 
     auto primeCount = 0;
     uint64_t lastPrime;

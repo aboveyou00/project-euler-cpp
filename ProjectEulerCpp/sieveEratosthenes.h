@@ -1,4 +1,5 @@
 #pragma once
+#include <iostream>
 
 template <typename T>
 using ActionPtr = void(*)(T);
@@ -10,24 +11,30 @@ template <typename T = uint64_t>
 class sieveEratosthenes
 {
 public:
-    sieveEratosthenes()
+    sieveEratosthenes(T upTo = 100000)
     {
-        emptyCache();
+        generateInitial(upTo);
     }
     ~sieveEratosthenes()
     {
     }
 
-    void generate(T upTo, ActionPtr<T> handler)
+    template <typename TAction = ActionPtr<T>>
+    void generate(T upTo, TAction handler)
     {
         return generate([handler, upTo](uint64_t val)
         {
-            handler(val);
-            return val < upTo;
+            if (val < upTo)
+            {
+                handler(val);
+                return true;
+            }
+
+            return false;
         });
     }
 
-    template <typename TPredicate = PredicatePtr>
+    template <typename TPredicate = PredicatePtr<T>>
     void generate(TPredicate handler)
     {
         for (auto it = m_primes.begin(); it != m_primes.end(); it++)
@@ -37,6 +44,8 @@ public:
                 return;
             }
         }
+
+        std::cout << "WARNING: Reached end of sieve of eratosthenes buffer. Using less efficient algorithm to continue boundlessly." << std::endl;
 
         T counter = m_primes.at(m_primes.size() - 1) + 2;
 
@@ -73,21 +82,41 @@ public:
         }
     }
 
-    void emptyCache()
-    {
-        m_primes.clear();
-        m_primes.push_back(2);
-        m_primes.push_back(3);
-        m_primes.push_back(5);
-        m_primes.push_back(7);
-        m_primes.push_back(11);
-        m_primes.push_back(13);
-        m_primes.push_back(17);
-        m_primes.push_back(19);
-        m_primes.push_back(23);
-        m_primes.push_back(29);
-    }
-
 private:
     std::vector<T> m_primes;
+
+    void generateInitial(T upTo)
+    {
+        bool *isPrime = new bool[upTo];
+        std::fill(isPrime, isPrime + upTo, true);
+        isPrime[0] = false;
+        isPrime[1] = false;
+
+        auto maxToCheck = (T)floor(sqrt(upTo));
+
+        for (T q = 2; q <= maxToCheck; q++)
+        {
+            if (!isPrime[q])
+            {
+                continue;
+            }
+
+            for (T val = q * 2; val < upTo; val += q)
+            {
+                isPrime[val] = false;
+            }
+        }
+
+        for (T q = 2; q < upTo; q++)
+        {
+            if (!isPrime[q])
+            {
+                continue;
+            }
+
+            m_primes.push_back(q);
+        }
+
+        delete[] isPrime;
+    }
 };

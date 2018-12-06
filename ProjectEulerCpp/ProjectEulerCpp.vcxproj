@@ -178,6 +178,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="sum-of-primes-euler10.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="euler8.txt">

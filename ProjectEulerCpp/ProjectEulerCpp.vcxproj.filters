@@ -92,6 +92,9 @@
     <ClCompile Include="largest-series-product-euler8.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="sum-of-primes-euler10.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="path-sum-matrix.txt">
