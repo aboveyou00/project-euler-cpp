@@ -13,6 +13,7 @@ int main()
     std::cout << "Euler[4] = " << euler<4>::value() << std::endl;
     std::cout << "Euler[5] = " << euler<5>::value << std::endl;
     std::cout << "Euler[6] = " << euler<6>::value << std::endl;
+    std::cout << "Euler[7] = " << euler<7>::value() << std::endl;
     std::cout << "Euler[14] = " << euler<14>::value() << std::endl;
     std::cout << "Euler[15] = " << euler<15>::value << std::endl;
     std::cout << "Euler[18] = " << euler<18>::value() << std::endl;

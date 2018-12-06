@@ -154,6 +154,7 @@
     <ClInclude Include="lattice-paths-euler15.h" />
     <ClInclude Include="math-utils.h" />
     <ClInclude Include="maximum-path.h" />
+    <ClInclude Include="sieveEratosthenes.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="sum-squares-euler6.h" />
     <ClInclude Include="targetver.h" />
@@ -166,6 +167,7 @@
     <ClCompile Include="min-path-sum-four-ways.cpp" />
     <ClCompile Include="min-path-sum-three-ways.cpp" />
     <ClCompile Include="min-path-sum-two-ways.cpp" />
+    <ClCompile Include="nth-prime-euler7.cpp" />
     <ClCompile Include="palindrome-product.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
