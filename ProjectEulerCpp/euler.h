@@ -114,6 +114,13 @@ public:
 };
 
 template <>
+struct euler<22>
+{
+public:
+    static uint32_t value();
+};
+
+template <>
 struct euler<67>
 {
 public:

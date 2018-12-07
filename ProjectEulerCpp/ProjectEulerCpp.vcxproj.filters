@@ -98,12 +98,18 @@
     <ClCompile Include="number-letter-counts-euler17.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="name-scores-euler22.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="path-sum-matrix.txt">
       <Filter>Data</Filter>
     </Text>
     <Text Include="euler8.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="euler22.txt">
       <Filter>Data</Filter>
     </Text>
   </ItemGroup>
