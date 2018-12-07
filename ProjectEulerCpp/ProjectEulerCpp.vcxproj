@@ -164,6 +164,7 @@
   <ItemGroup>
     <ClCompile Include="collatz.cpp" />
     <ClCompile Include="file-utils.cpp" />
+    <ClCompile Include="highly-divisible-triangular-number-euler12.cpp" />
     <ClCompile Include="largest-grid-product-euler11.cpp" />
     <ClCompile Include="largest-series-product-euler8.cpp" />
     <ClCompile Include="maximum-path.cpp" />

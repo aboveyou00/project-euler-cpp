@@ -104,6 +104,9 @@
     <ClCompile Include="largest-grid-product-euler11.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="highly-divisible-triangular-number-euler12.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="path-sum-matrix.txt">
