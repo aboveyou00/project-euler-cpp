@@ -87,7 +87,7 @@ private:
 
     void generateInitial(T upTo)
     {
-        bool *isPrime = new bool[upTo];
+        bool *isPrime = new bool[(size_t)upTo];
         std::fill(isPrime, isPrime + upTo, true);
         isPrime[0] = false;
         isPrime[1] = false;
