@@ -118,5 +118,11 @@
     <Text Include="euler11.txt">
       <Filter>Data</Filter>
     </Text>
+    <Text Include="euler18.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="euler67.txt">
+      <Filter>Data</Filter>
+    </Text>
   </ItemGroup>
 </Project>

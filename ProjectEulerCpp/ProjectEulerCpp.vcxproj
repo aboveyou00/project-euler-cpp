@@ -184,8 +184,18 @@
     <ClCompile Include="sum-of-primes-euler10.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="euler11.txt" />
-    <Text Include="euler22.txt" />
+    <Text Include="euler11.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="euler18.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="euler22.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
+    <Text Include="euler67.txt">
+      <DeploymentContent>true</DeploymentContent>
+    </Text>
     <Text Include="euler8.txt">
       <DeploymentContent>true</DeploymentContent>
     </Text>
