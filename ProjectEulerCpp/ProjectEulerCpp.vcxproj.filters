@@ -101,6 +101,9 @@
     <ClCompile Include="name-scores-euler22.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="largest-grid-product-euler11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="path-sum-matrix.txt">
@@ -110,6 +113,9 @@
       <Filter>Data</Filter>
     </Text>
     <Text Include="euler22.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="euler11.txt">
       <Filter>Data</Filter>
     </Text>
   </ItemGroup>

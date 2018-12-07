@@ -164,6 +164,7 @@
   <ItemGroup>
     <ClCompile Include="collatz.cpp" />
     <ClCompile Include="file-utils.cpp" />
+    <ClCompile Include="largest-grid-product-euler11.cpp" />
     <ClCompile Include="largest-series-product-euler8.cpp" />
     <ClCompile Include="maximum-path.cpp" />
     <ClCompile Include="main.cpp" />
@@ -183,6 +184,7 @@
     <ClCompile Include="sum-of-primes-euler10.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="euler11.txt" />
     <Text Include="euler22.txt" />
     <Text Include="euler8.txt">
       <DeploymentContent>true</DeploymentContent>
